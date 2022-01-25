@@ -1,5 +1,4 @@
-#Balanceador
------------
+# Balanceador
 
 Se encarga de repartir la carga entre los servidores web, que se encuentran en la red interna privada de Google Cloud
 Estos servidores web arrancan el servicio con el siguiente comando, que usa el rsyslog para notificar al balanceador:
