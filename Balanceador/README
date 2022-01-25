@@ -1,11 +1,11 @@
-Balanceador
+#Balanceador
 -----------
 
 Se encarga de repartir la carga entre los servidores web, que se encuentran en la red interna privada de Google Cloud
 Estos servidores web arrancan el servicio con el siguiente comando, que usa el rsyslog para notificar al balanceador:
 'docker run --log-driver syslog --log-opt syslog-address=udp://10.0.0.2:514 --log-opt tag=docker --rm -p80:5000 -e HOSTNAME=$HOSTNAME -it javierdf/servidor_web'
 
-Archivos:
+##Archivos:
 
 - balanceador/default.conf: Archivo que defineel servicio de balanceo de carga. Lo montamos en el contenedor nginx con el siguiente comando:
 'docker run --name balanceador --log-driver syslog --log-opt syslog-address=udp://10.0.0.2:514 --log-opt tag=balanceador -p80:80 --rm -v $(pwd)/balanceador/default.conf:/etc/nginx/conf.d/default.conf nginx'

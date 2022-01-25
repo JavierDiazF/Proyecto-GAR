@@ -3,7 +3,7 @@
 ## GitHub del proyecto de la asignatura 'Gestión y administración de Redes':
 
 ### Autores:
-### ---------------------------------------------
+---------------------------------------------
     Álvaro Colmenares Gil
     Javier Díaz Fuentes
     Pablo Domínguez Alonso
