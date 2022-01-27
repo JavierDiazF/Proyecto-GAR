@@ -1,6 +1,6 @@
 # MONITORIZACIÓN DE SERVIDORES WEB EN ENTORNO CLOUD
 
-## GitHub del proyecto de la asignatura ´Gestión y administración de Redes´:
+## GitHub del proyecto de la asignatura `Gestión y administración de Redes`:
 
 ![Escenario montado]
 (https://raw.githubusercontent.com/JavierDiazF/Proyecto-GAR/main/esquema-imagen.png)
